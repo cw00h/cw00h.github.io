@@ -29,7 +29,7 @@ url                      : https://cw00h.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : cw00h/cw00h.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/kirby.png"
+logo                     : "/assets/images/rocket.png"
 masthead_title           : "cw00h's blog"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
