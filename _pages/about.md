@@ -23,13 +23,14 @@ share: false
 
 ### 👋 Hello!
 
-Hi! 😊 My name is **Woo hyuk Choi(@cw00h)**. My dream is to help people in world throughout technology.  
+Hi! 😊 My name is **Woo hyuk Choi(@cw00h)**.   
+My dream is to help people in world throughout technology.  
 I'm serving my **military duty** until August 2022.
 
 ### ✨ What I'm interested in
 
-I love to study **computer science** & make something using **computer**.
-In the meantime, I only studied basic subjects like data structure and algorithm at university, but I want to explore the computer world deeper by myself! 🚀
+I love to study **computer science** & make something using **computer**.   
+In the meantime, I only studied basic subjects like data structure and algorithm at university, but now I want to explore the computer world deeper by myself! 🚀
 
 ### 📞 How to contact
 
