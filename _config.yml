@@ -111,9 +111,6 @@ author:
   location         : "Seoul, Republic of Korea"
   email            : "cwooh8@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:cwooh8@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/cw00h"
