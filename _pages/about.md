@@ -7,7 +7,7 @@ share: false
 
 ### 👋 안녕하세요! 
 
-안녕하세요! 😊 저는 기술을 통해 타인을 돕고 싶은 **최우혁(@cw00h)** 이라고 합니다.   
+안녕하세요! 😊 저는 기술을 통해 타인을 돕고 싶은 **최우혁(@cw00h)** 입니다.   
 현재 21년 2월부터 21년 8월까지 여수에서 **국방의 의무**를 다하고 있습니다. 
 
 ### ✨ 흥미
@@ -23,13 +23,14 @@ share: false
 
 ### 👋 Hello!
 
-Hi! 😊 My name is **Woo hyuk Choi(@cw00h)**. My dream is to help people in world throughout technology.  
+Hi! 😊 My name is **Woo hyuk Choi(@cw00h)**.   
+My dream is to help people in world throughout technology.  
 I'm serving my **military duty** until August 2022.
 
 ### ✨ What I'm interested in
 
-I love to study **computer science** & make something using **computer**.
-In the meantime, I only studied basic subjects like data structure and algorithm at university, but I want to explore the computer world deeper by myself! 🚀
+I love to study **computer science** & make something using **computer**.   
+In the meantime, I only studied basic subjects like data structure and algorithm at university, but now I want to explore the computer world deeper by myself! 🚀
 
 ### 📞 How to contact
 
