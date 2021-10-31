@@ -10,7 +10,7 @@ categories:
 last_modified_at: 2021-10-23T12:53:00-05:00
 ---
 
-*If you want to read this in English, [click here]({{site.url}}/writing/osam-hackathon-en/)*
+*If you want to read this in English, [click here]({{site.url}}/hackathon/osam-hackathon-en/)*
 
 # 🎉 OSAM 해커톤에 참여하다
 
