@@ -152,3 +152,12 @@ In addition, through meetings at **zoom** every weekend, we shared curent progre
 
 &nbsp;
 OSAM Hackathon became a great vitality in my boring military life. I was able to learn so many things and meet a new world for about three months. Thanks to the participation of Hackathon, I started blogs, gained the courage to participate in many competitions in the future, and became motivated to study harder. I am very grateful to the team members and mentors with OSAM for holding such a good competition. If I have another opportunity to participate in such a competition in the future, I will challenge without hesitation. 🤗
+
+## 🎊 We won the CNO award!
+
+<p align="center">
+<img src="/assets/images/osam-hackathon/OSAM_award.PNG" width="600px">
+</p>
+
+&nbsp; On November 11, 2021, the results of 2021 OSAM Hackathon were finally announced. My Handover team won the **Chief of Naval Operations Award**. 🙌
+Of course, I was happy to receive the award, but I felt a little ashamed because I didn't contribute much to the development of the project. I should work harder thinking that I was just lucky this time. 🏃‍♂️
