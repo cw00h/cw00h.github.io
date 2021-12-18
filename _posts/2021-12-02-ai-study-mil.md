@@ -8,7 +8,7 @@ categories:
   - Study
 
 ---
-*If you want to read this in English, [click here]({{site.url}}/writing/ai-study-mil-en/)*
+*If you want to read this in English, [click here]({{site.url}}/study/ai-study-mil-en/)*
 
 &nbsp;11월 한 달 동안 국방부, 과학기술정보통신부, 정보통신산업진흥원, [elice](https://elice.io)에서 제공하는 [21년 군 장병 맞춤형 온라인 인공지능 교육](https://military.elice.io/)에 참여했다. 한 달 간 배우고 느낀 점들을 기록하고자 글을 작성한다.
 

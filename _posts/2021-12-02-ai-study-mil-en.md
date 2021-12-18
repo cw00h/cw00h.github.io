@@ -8,7 +8,7 @@ categories:
   - Study
 
 ---
-*한국어로 이 글을 읽고 싶다면, [여기를 클릭하세요]({{site.url}}/writing/ai-study-mil/)*
+*한국어로 이 글을 읽고 싶다면, [여기를 클릭하세요]({{site.url}}/study/ai-study-mil/)*
 
 
 &nbsp;In November, I participated in [2021 Customized AI Education for Military](https://military.elice.io/). I'm writing this post to record what I've learned during this month.
