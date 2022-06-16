@@ -35,7 +35,7 @@ I'm currently serving my **military duty** for my country until August 2022.
 
 ### ✨ What I'm interested in
 
-I 'm intersted in **information security**. 🛡️
+I'm intersted in **information security**. 🛡️
 
 ### 📞 How to contact
 
