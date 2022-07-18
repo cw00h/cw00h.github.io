@@ -5,7 +5,8 @@ toc: true
 toc_sticky: true
 
 categories:
-  - Study
+  - Review
+  - AI
 
 ---
 *한국어로 이 글을 읽고 싶다면, [여기를 클릭하세요]({{site.url}}/study/ai-study-mil/)*
