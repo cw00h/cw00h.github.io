@@ -11,8 +11,7 @@ share: false
 
 ### ✍ 하고 있는 일
 
-저는 **[서울대학교](https://snu.ac.kr) [전기정보공학부](https://ee.snu.ac.kr/)**에 소속되어 컴퓨터 분야를 공부해왔습니다. ⚡   
-현재는 21년 2월부터 22년 8월까지 여수에서 **국방의 의무**를 다하고 있습니다. 
+저는 **[서울대학교](https://snu.ac.kr) [전기정보공학부](https://ee.snu.ac.kr/)**에 소속되어 컴퓨터 분야를 공부하고 있습니다. ⚡   
 
 ### ✨ 흥미
 
@@ -30,8 +29,7 @@ Hi! 😊 My name is **Woo hyuk Choi**. I want to help people in world using tech
 
 ### ✍ What I'm doing now
 
-I was learning from **[Dept. of Electrical and Computer Engineering](http://ee.snu.ac.kr/en)** at **[Seoul National University](https://en.snu.ac.kr/)** in Seoul, South Korea. ⚡   
-I'm currently serving my **military duty** for my country until August 2022.
+I am learning from **[Dept. of Electrical and Computer Engineering](http://ee.snu.ac.kr/en)** at **[Seoul National University](https://en.snu.ac.kr/)** in Seoul, South Korea. ⚡   
 
 ### ✨ What I'm interested in
 
