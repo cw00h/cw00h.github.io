@@ -2,7 +2,6 @@
 title:  "Participating in 2021 OSAM hackathon ✍"
 excerpt: "I participated in 2021 OSAM hackathon! 😁"
 toc: true
-toc_sticky: true
 
 categories:
   - Hackathon

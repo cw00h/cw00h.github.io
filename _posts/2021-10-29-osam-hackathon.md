@@ -2,7 +2,6 @@
 title:  "2021 군장병 공개SW 온라인 해커톤 참여 후기 ✍"
 excerpt: "2021 OSAM 해커톤에 참여했습니다. 😁"
 toc: true
-toc_sticky: true
 
 categories:
   - Hackathon
