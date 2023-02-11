@@ -44,14 +44,14 @@ I had a general understanding of computer systems from my System Programming cla
 
 Main features that I developed in Xv6 are as follows:
 
-- **Basic system calls**: `[trace](https://github.com/cw00h/xv6/commit/ee2f0a2486864e09a6964eec3e41e5608259f44f)`, `[sysinfo](https://github.com/cw00h/xv6/commit/b62297c310808c3135104069183d7f01982777fa)` system calls
-- **Page table**: `[pgacess](https://github.com/cw00h/xv6/commit/ee4d06b91827a9978dcdec8d17716002980f3897)` system call that prints which page has been accessed
-- **Trap**: `[backtrace](https://github.com/cw00h/xv6/commit/b20c93166afa1487c0479568e65503a8c33e62a8)` function that shows a list of the functions that were called before the error happened, `[sigalarm` & `sigreturn` system calls](https://github.com/cw00h/xv6/commit/53673b6f9827f538dca02e729b457096951de486)
+- **Basic system calls**: [trace](https://github.com/cw00h/xv6/commit/ee2f0a2486864e09a6964eec3e41e5608259f44f), [sysinfo](https://github.com/cw00h/xv6/commit/b62297c310808c3135104069183d7f01982777fa) system calls
+- **Page table**: [pgacess](https://github.com/cw00h/xv6/commit/ee4d06b91827a9978dcdec8d17716002980f3897) system call that prints which page has been accessed
+- **Trap**: [backtrace](https://github.com/cw00h/xv6/commit/b20c93166afa1487c0479568e65503a8c33e62a8) function that shows a list of the functions that were called before the error happened, [sigalarm & sigreturn system calls](https://github.com/cw00h/xv6/commit/53673b6f9827f538dca02e729b457096951de486)
 - **Copy-on-Write**: Implemented a [Copy-on-Write feature](https://github.com/cw00h/xv6/commit/36f1e31f05d7263961cd5bcbfb26bc202b774a07) in Xv6.
 - **Multithreading**: Implemented **[a context switch mechanism](https://github.com/cw00h/xv6/commit/49b1e5e761e9fff2049a16f099e9948a9d61e338)** for **user-level threading system**.
 - **Networking**: Implemented [functions for the network driver to transmit and receive packet](https://github.com/cw00h/xv6/commit/baf0049dbc627b9f9e6d2293fb1d328368c9a58c)s.
-- **File System**: `[symlink](https://github.com/cw00h/xv6/commit/ec32e20f2d422e675c0733b421227df99b28565f)` system call & [Increased the maximum size of an xv6 file](https://github.com/cw00h/xv6/commit/9f1aa1972d537470750e853068a811147dd3f0aa).
-- **mmap**: `[mmap`, `munmap`](https://github.com/cw00h/xv6/commit/6150bf4427c35d16fdc5443f410fdedb80828868) system call
+- **File System**: [symlink](https://github.com/cw00h/xv6/commit/ec32e20f2d422e675c0733b421227df99b28565f) system call & [Increased the maximum size of an xv6 file](https://github.com/cw00h/xv6/commit/9f1aa1972d537470750e853068a811147dd3f0aa).
+- **mmap**: [mmap, munmap](https://github.com/cw00h/xv6/commit/6150bf4427c35d16fdc5443f410fdedb80828868) system call
 
 ## kvm-hello-world
 
@@ -61,10 +61,10 @@ First, to understand the structure of kvm-hello-world, I answered several questi
 
 Next, I added some **new hypercalls** according to the instructions. The hypercalls I added are:
 
-- `[printVal](https://github.com/cw00h/kvm-hello-world/commit/ab50a51d11767224cf585d1d7df2521bbc099856)` printing the 32-bit value given as argument to the screen.
-- `[getNumExits](https://github.com/cw00h/kvm-hello-world/commit/74c32b06d0b3666517b18215f3d158d3a610f2db)` returning the number of exits incurred by the guest since it started.
-- `[display](https://github.com/cw00h/kvm-hello-world/commit/7ca6babe5060c33aa502c1a304b3109195f53ef8)` printing the string given as argument to the screen, incurring only one guest exit.
-- File system hypercalls: `[open](https://github.com/cw00h/kvm-hello-world/commit/67ddf8d773e2cee65509b4b2ef3c2c606989ea93)`, `[read](https://github.com/cw00h/kvm-hello-world/commit/dd68aba29fe8ab6f292c6b35fa7db2d5cabbddfd)`, `[write](https://github.com/cw00h/kvm-hello-world/commit/142c4f6dbf774ba34d1695c28244b2e9498efa5b)`
+- [printVal](https://github.com/cw00h/kvm-hello-world/commit/ab50a51d11767224cf585d1d7df2521bbc099856) printing the 32-bit value given as argument to the screen.
+- [getNumExits](https://github.com/cw00h/kvm-hello-world/commit/74c32b06d0b3666517b18215f3d158d3a610f2db) returning the number of exits incurred by the guest since it started.
+- [display](https://github.com/cw00h/kvm-hello-world/commit/7ca6babe5060c33aa502c1a304b3109195f53ef8) printing the string given as argument to the screen, incurring only one guest exit.
+- File system hypercalls: [open](https://github.com/cw00h/kvm-hello-world/commit/67ddf8d773e2cee65509b4b2ef3c2c606989ea93), [read](https://github.com/cw00h/kvm-hello-world/commit/dd68aba29fe8ab6f292c6b35fa7db2d5cabbddfd), [write](https://github.com/cw00h/kvm-hello-world/commit/142c4f6dbf774ba34d1695c28244b2e9498efa5b)
 
 By understanding **how the KVM API works**, I could know **how to operate KVM** - how to set up virtual machines and how to communicate with them. I also learned that KVM is an essential part of cloud computing and virtualization technologies. 
 
