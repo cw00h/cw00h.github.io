@@ -74,7 +74,7 @@ After studying topics related to computer systems, such as operating systems, hy
 
 - [Intel SGX explained](https://eprint.iacr.org/2016/086.pdf), [AMD SEV-SNP](https://www.amd.com/system/files/TechDocs/SEV-SNP-strengthening-vm-isolation-with-integrity-protection-and-more.pdf)
 - [Ryoan](https://www.usenix.org/system/files/conference/osdi16/osdi16-hunt.pdf)
-- [SoK](https://arxiv.org/pdf/2208.10134.pdf)
+- [SoK: Machine Learning with Confidential Computing](https://arxiv.org/pdf/2208.10134.pdf)
 
 ## Conclusion
 
