@@ -70,11 +70,7 @@ By understanding **how the KVM API works**, I could know **how to operate KVM** 
 
 ## Reading papers
 
-After studying topics related to computer systems, such as operating systems, hypervisors, and fuzzers, I began reading papers on software security. Many papers from Compsec focus on fuzzing or confidential computing using Intel SGX, so I started there. The papers I am reading or plan to read in the future include:
-
-- [Intel SGX explained](https://eprint.iacr.org/2016/086.pdf), [AMD SEV-SNP](https://www.amd.com/system/files/TechDocs/SEV-SNP-strengthening-vm-isolation-with-integrity-protection-and-more.pdf)
-- [Ryoan](https://www.usenix.org/system/files/conference/osdi16/osdi16-hunt.pdf)
-- [SoK: Machine Learning with Confidential Computing](https://arxiv.org/pdf/2208.10134.pdf)
+After studying topics related to computer systems, such as operating systems, hypervisors, and fuzzers, I began reading papers on software security. Many papers from Compsec focus on fuzzing or confidential computing using Intel SGX, so I started there. The papers I am reading or plan to read in the future can be found in my notion [page](https://www.notion.so/cw00h/Research-Paper-2f38f4ea021848f9bdec36a48df20928?pvs=4).
 
 ## Conclusion
 
