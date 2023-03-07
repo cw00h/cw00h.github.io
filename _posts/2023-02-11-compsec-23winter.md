@@ -27,7 +27,7 @@ With this assignment, I could learn about how LLVM works, and how to write a LLV
 
 ---
 
-Next two assignments were to **implement a [CompareCoverage](https://github.com/googleprojectzero/CompareCoverage) feature for AFL** to make it bypass strong constraints much faster.
+Next two assignments were to **implement a [compare coverage](https://andreafioraldi.github.io/articles/2019/07/20/aflpp-qemu-compcov.html) feature for AFL** to make it bypass strong constraints much faster.
 
 [First assignment](https://github.com/lifeasageek/snu-software-security-public/tree/spring-21/prog-assign-2) was to implement the **LLVM pass** that transforms the target program to benefit AFL using the idea of CompareCoverage. I had to insert an additional code transformation logic using **AFL's llvm-mode**.
 
