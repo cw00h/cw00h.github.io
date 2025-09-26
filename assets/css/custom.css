@@ -1,0 +1,28 @@
+/* Local CSS overrides scoped by page classes */
+
+/* Wider content width on large screens */
+body.page--wide #main,
+body.page--wide .page__hero .wrapper,
+body.page--wide .page {
+  max-width: 1350px; /* wider than theme default 1280px */
+}
+
+/* Slightly increase side padding to balance width */
+body.page--wide #main {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+/* Make page shorter by reducing bottom padding and footer margin */
+body.page--short-footer {
+  padding-bottom: 3em; /* default is ~9em via theme */
+}
+
+body.page--short-footer .page__footer {
+  margin-top: 1.5em; /* was 3em */
+}
+
+/* Tighten paragraph spacing a bit to reduce vertical length */
+body.page--short-footer .page__content p {
+  margin-bottom: 1em;
+}

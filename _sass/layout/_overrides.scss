@@ -1,0 +1,33 @@
+/*
+   Local overrides for specific pages
+*/
+
+/* Wider content width */
+body.page--wide #main,
+body.page--wide .page__hero .wrapper,
+body.page--wide .page {
+  @include breakpoint($x-large) {
+    max-width: 1480px; /* wider than default 1280px */
+  }
+}
+
+/* Reduce side paddings a bit on large screens to visually widen */
+body.page--wide #main {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+/* Shorten the page height by reducing bottom padding and footer margin */
+body.page--short-footer {
+  /* default body padding-bottom is 9em; shrink it */
+  padding-bottom: 3em;
+}
+
+body.page--short-footer .page__footer {
+  margin-top: 1.5em; /* was 3em */
+}
+
+/* Optionally tighten vertical rhythm inside the page content */
+body.page--short-footer .page__content p {
+  margin-bottom: 1em;
+}
