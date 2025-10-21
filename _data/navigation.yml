@@ -9,7 +9,7 @@
 
 main:
   - title: "Blog"
-    url: /year-archive/
+    url: /blog/
 
   - title: "CV"
     url: /files/woohyuk-CV-2025-09.pdf
