@@ -26,13 +26,31 @@ This blog is a space where I can share longer-form content than what fits in aca
 
 ## Adding Images to Posts
 
-You can easily add images to your blog posts using markdown syntax. For example:
+You can easily add images to your blog posts. Just place your images in the `/images/` directory (or a subdirectory like `/images/posts/`) and reference them in your post.
 
+### Basic Image (Left-aligned)
 ```markdown
 ![Image description](/images/your-image.png)
 ```
 
-Just place your images in the `/images/` directory (or a subdirectory like `/images/posts/`) and reference them using the path above.
+### Centered Image (Recommended)
+
+**Method 1: Using the built-in `.align-center` class**
+```html
+<img src="/images/your-image.png" alt="Description" class="align-center">
+```
+
+**Method 2: Using inline styles**
+```html
+<p style="text-align: center;">
+  <img src="/images/your-image.png" alt="Description">
+</p>
+```
+
+**Method 3: Using Kramdown's image attribute syntax**
+```markdown
+![Image description](/images/your-image.png){: .align-center}
+```
 
 ## Getting Started
 
