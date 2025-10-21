@@ -11,7 +11,7 @@ published: true
 ## TL;DR
 
 1. Investigating the sandbox inside ***Claude Code on the Web*** was surprisingly easy. I did not need jailbreaks or prompt injection. Claude executed inspection commands and generated code for me on request.
-2. The environment is strongly sandboxed. Evidence points to a gVisor backed container running under a VM, with a PID 1 supervisor binary called `process_api`.
+2. The environment is strongly sandboxed. Evidence points to a gVisor backed container running under a VM, with a PID 1 init-like binary called `process_api` which is responsible for resource management.
 
 ---
 
