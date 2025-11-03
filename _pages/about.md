@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a M.S. student in [CompSec Lab](https://compsec.snu.ac.kr), Department
+I am a Ph.D. student in [CompSec Lab](https://compsec.snu.ac.kr), Department
 of Electrical and Computer Engineering, Seoul National University.
 I am advised by Prof. [Byoungyoung Lee](https://lifeasageek.compsec.snu.ac.kr).
 

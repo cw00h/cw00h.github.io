@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Woohyuk Choi"
 title_separator          : "-"
 name                     : &name "Woohyuk Choi"
-description              : &description "M.S. student researching security for AI & system security"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Ph.D. student researching security for AI & system security"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://cw00h.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Woohyuk Choi"
   pronouns         : # example: "she/her"  
-  bio              : "M.S. student at CompSec Lab, SNU"
+  bio              : "Ph.D. student at CompSec Lab, SNU"
   location         : "Seoul, South Korea"
   employer         : 
   uri              : # URL
