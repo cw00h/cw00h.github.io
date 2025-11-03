@@ -24,7 +24,7 @@ sitemap:
 
   <!-- CV PDF File -->
   <url>
-    <loc>{{ site.url }}/files/woohyuk-CV-2025-09.pdf</loc>
+    <loc>{{ site.url }}/files/woohyuk-CV-2025-11.pdf</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
