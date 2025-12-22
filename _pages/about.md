@@ -23,7 +23,7 @@ available, please feel free to reach out to me at [00cwooh@snu.ac.kr](mailto:00c
 
 ## Publications
 
-### GHost in the SHELL: A GPU-to-Host Memory Attack and Its Mitigation
+### [GHost in the SHELL: A GPU-to-Host Memory Attack and Its Mitigation](https://compsec.snu.ac.kr/papers/ghostintheshell.pdf)
 Sihyun Roh, **Woohyuk Choi**, Jaeyoung Chung, Yoochan Lee, Suhwan Song and Byoungyoung Lee  
 *IEEE Symposium on Security and Privacy (SP) 2026 (accepted, to appear)*
 
