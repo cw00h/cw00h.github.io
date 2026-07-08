@@ -13,15 +13,23 @@ of Electrical and Computer Engineering, Seoul National University.
 I am advised by Prof. [Byoungyoung Lee](https://lifeasageek.compsec.snu.ac.kr).
 
 I am interested in security for AI and system security in general. In particular, my research focuses
-on **AI agent security**. I designed **Prompt Flow Integrity**, a system-level mitigation against
-prompt injection attacks in LLM agents.
-Building on this, my current research focuses on system-level defenses for web agents.
+on **AI agent security**. I designed **Prompt Flow Integrity** and **DualView**, a system-level mitigation against
+prompt injection attacks in LLM agents. Also I discovered **Agent Data Injection (ADI)**, a new class of attacks
+that exploits the misinterpretation of untrusted data as trusted data in AI agents.
 
 I am currently seeking internship or visiting researcher opportunities in the areas of
 system security and AI agent security. If you are interested in collaborating or have opportunities
 available, please feel free to reach out to me at [00cwooh@snu.ac.kr](mailto:00cwooh@snu.ac.kr).
 
 ## Publications
+
+### [Agent Data Injection Attacks are Realistic Threats to AI Agents](https://arxiv.org/abs/2607.05120)
+**Woohyuk Choi\***, Juhee Kim\*, Taehyun Kang, Jihyeon Jeong, Luyi Xing, and Byoungyoung Lee  
+*arXiv:2607.05120, 2026 (\* Equal contribution)*
+
+### [DualView: Preventing Indirect Prompt Injection in Personal AI Agents](https://arxiv.org/abs/2607.03821)
+**Woohyuk Choi\***, Juhee Kim\*, Taehyun Kang, Youngmin Kim, and Byoungyoung Lee  
+*arXiv:2607.03821, 2026 (\* Equal contribution)*
 
 ### [GHost in the SHELL: A GPU-to-Host Memory Attack and Its Mitigation](https://compsec.snu.ac.kr/papers/ghostintheshell.pdf)
 Sihyun Roh, **Woohyuk Choi**, Jaeyoung Chung, Yoochan Lee, Suhwan Song and Byoungyoung Lee  
