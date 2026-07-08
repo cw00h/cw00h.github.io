@@ -164,6 +164,31 @@ body:hover .visually-hidden button {
   margin-right: auto;
 }
 
+/* blog figure sizing — responsive (% of the content column, centered).
+   On small screens they fall back to full width so they stay readable. */
+
+.fig-narrow,
+.fig-medium {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fig-narrow {
+  max-width: 60%;
+}
+
+.fig-medium {
+  max-width: 80%;
+}
+
+@include breakpoint(max-width $small) {
+  .fig-narrow,
+  .fig-medium {
+    max-width: 100%;
+  }
+}
+
 /* file page content container */
 
 .full {
