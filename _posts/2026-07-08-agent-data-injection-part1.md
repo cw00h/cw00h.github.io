@@ -79,13 +79,17 @@ This is probabilistic delimiter injection: the `\"` closes the attacker's own qu
 
 Throughout, the LLM is still doing your task: summarizing reviews. ADI corrupted only the trusted element identifier, redirecting a single click. This is essentially an **XSS-like attack on agents** — any site that shows user-generated content becomes attackable, from an ordinary user account. And it is not limited to purchases: wherever element IDs map to sensitive actions, the same trick applies. 
 
-## Affected web agents, and responsible disclosure
+## Affected web agents
 
 We reproduced this attack on three real-world web agents: **Claude for Chrome** (Anthropic), **Antigravity** (Google), and **Nanobrowser**. (Antigravity is primarily a coding agent, but it ships a web-browsing feature, which is what we tested.) All of them assign sequential, predictable element identifiers, which is what makes the target ID guessable.
 
-Antigravity and Nanobrowser were tested in January 2026. Claude for Chrome we re-tested in **July 2026** on the latest models — **Claude Sonnet 5** and **Claude Opus 4.8** — and the attack still succeeds. Here is that run, end to end.
+Antigravity and Nanobrowser were tested in January 2026. Claude for Chrome we re-tested in **July 2026** on the latest models — **Claude Sonnet 5** and **Claude Opus 4.8** — and the attack still succeeds.
 
-The attacker's payload is nothing but an ordinary-looking product review.
+Our attack failed against **ChatGPT Atlas.** It uses randomized nonce identifiers (e.g. `ref_4af2b1c9`) instead of sequential ones, so the attacker cannot predict the target ID. We'll return to this defense in a later post.
+
+## Proof of concept: Claude for Chrome
+
+Here is the Claude for Chrome run, end to end. The attacker's payload is nothing but an ordinary-looking product review.
 
 ![The attacker's review on the product page](/images/posts/2026-07-08-agent-data-injection-part1/web-poc-1.png){: .fig-narrow}
 *Figure 6 — The attacker's review on the test e-commerce page. To a person it reads like a truncated review; its body carries the injected fake-button entry.*
@@ -102,9 +106,9 @@ Strikingly, the model does realize it was tricked — but only after the attack 
 ![The agent's run: plan, click, and the resulting purchase](/images/posts/2026-07-08-agent-data-injection-part1/web-poc-2.png)
 *Figure 8 — The agent (Opus 4.8) clicks the fake "Read More" and triggers the "Order Placed" dialog (right). Only afterward does it recognize the disguised purchase button and the injected review — too late to undo the click.*
 
-We reported all findings to the vendors in January 2026. Among the affected web-agent vendors, **Anthropic and Google acknowledged the attack as valid; Nanobrowser has not responded.**
+## Responsible disclosure
 
-Our attack failed against **ChatGPT Atlas.** It uses randomized nonce identifiers (e.g. `ref_4af2b1c9`) instead of sequential ones, so the attacker cannot predict the target ID. We'll return to this defense in a later post.
+We reported all findings to the vendors in January 2026. Among the affected web-agent vendors, **Anthropic and Google acknowledged the attack as valid; Nanobrowser has not responded.**
 
 ## Conclusion
 
