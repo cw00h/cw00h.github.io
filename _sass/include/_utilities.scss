@@ -189,6 +189,29 @@ body:hover .visually-hidden button {
   }
 }
 
+/* video embed: FitVids (loaded site-wide) wraps the iframe for responsive
+   sizing at runtime; these rules just center it like the figures above and
+   give a 16:9 fallback for before FitVids runs. */
+
+.video-embed {
+  max-width: 80%;
+  margin: 2em auto;
+
+  iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    border: 0;
+    border-radius: $border-radius;
+  }
+}
+
+@include breakpoint(max-width $small) {
+  .video-embed {
+    max-width: 100%;
+  }
+}
+
 /* file page content container */
 
 .full {
