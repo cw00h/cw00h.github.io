@@ -11,7 +11,7 @@ published: true
 
 By planting a single fake product review on a shopping page, we made three web agents — **Claude for Chrome** (Anthropic), **Antigravity** (Google), and **Nanobrowser** — click buttons their users never intended. On Claude for Chrome, a request as harmless as *"summarize the reviews on this page"* ended with a one-click order placed for a product the user never asked for — and it still works on the latest models, **Claude Opus 4.8** and **Claude Sonnet 5** included. No malware, no phishing, no stolen password: just a product review that hijacked the agent's next click.
 
-This is essentially an **XSS-like attack on web agents**. Any website that shows user-generated content — reviews, comments, issue threads — becomes an attack surface, exploitable from an ordinary account with no special access. The arbitrary click attack is one instance of a broader class of vulnerability we call **Agent Data Injection (ADI)**, in which attacker-controlled data is misread by the agent as *trusted* data. To further understand this vulnerability, see [our paper](https://arxiv.org/abs/2607.05120).
+This is essentially an **XSS-like attack on web agents**. In other words, our attack effectively gives any website that shows user-generated content (reviews, comments, issue threads) an XSS-like vulnerability, including popular, otherwise-secure sites. The attack needs only an ordinary account with no special access. The arbitrary click attack is one instance of a broader class of vulnerability we call **Agent Data Injection (ADI)**, in which attacker-controlled data is misread by the agent as *trusted* data. To further understand this vulnerability, see [our paper](https://arxiv.org/abs/2607.05120).
 
 ## Arbitrary Click Attack on a Web Agent
 
