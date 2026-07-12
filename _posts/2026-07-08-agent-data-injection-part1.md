@@ -54,7 +54,7 @@ Our attack failed against **ChatGPT Atlas**. It uses randomized nonce identifier
 Here is the full Claude for Chrome run, end to end. The video shows the whole attack; the screenshots below break it down step by step.
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/0tdm1_DYBr8" title="Agent Data Injection — arbitrary click PoC on Claude for Chrome" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/yh5YHLai3GA" title="Agent Data Injection: arbitrary click PoC on Claude for Chrome" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 *Video — The full attack against Claude for Chrome (running Claude Opus 4.8). The agent is asked only to summarize the page's reviews, yet the injected review redirects its very next click onto the 1-Click "Buy Now" button, and an order the user never requested goes through.*
