@@ -1,5 +1,5 @@
 ---
-title: "Agent Data Injection: Arbitrary Click Attack against Claude for Chrome (Part 1 of 3)"
+title: "Agent Data Injection: Arbitrary Click Attack against Web Agents (Part 1 of 3)"
 date: 2026-07-08
 permalink: /posts/2026/07/agent-data-injection-part1/
 tags:
